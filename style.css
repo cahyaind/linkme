@@ -28,12 +28,12 @@ html {
     border: 2px solid #222;
     border-radius: 100%;
 }
-.profile-pict p {
+.profile-pict p a {
+    text-decoration: none;
     font-size: 1.8em;
     font-weight: 900;
     letter-spacing: 2px;
     color: #ffffff;
-    text-transform: capitalize;
     text-align: center;
     font-family: "comic sans ms";
 }
@@ -48,13 +48,13 @@ html {
     color: #364F6B;
     font-size: 24px;
     text-align: center;
-    border: 3px solid #222;
+    border: 0px solid #222;
     border-radius: 10px;
     background-color: azure;
     margin: 5px 10px;
     /* 5px atas bawah | 10px kiri kanan */
     padding: 10px;
-    font-weight: 400;
+    font-weight: 900;
 }
 .link a:hover {
     background-color: lime;
